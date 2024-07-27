@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="weather-container">
+            <section class="weather-info">
+                <div class="logo">
+                    <h1 id="city-name">Mangalore</h1>
+                    <p id="date-time">Saturday, 26 July</p>
+                </div>
+                <div class="input-box">
+                    <input type="search" placeholder="Enter city" id="user_input" aria-label="City search input">
+                    <button id="search_btn" aria-label="Search button">Search</button>
+                </div>
+            </section>
+            <section class="weather-details">
+                <div class="temperature">
+                    <h1 id="degree-show">15°C</h1>
+                </div>
+                <div class="weather-image">
+                    <img id="weather-img" src="cloud.jpeg" alt="Weather icon">
+                    <div class="details">
+                        <p id="description">Description</p>
+                    </div>
+                </div>
+            </section>
+            <section class="additional-info">
+                <!-- Additional content or widgets can go here -->
+            </section>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
